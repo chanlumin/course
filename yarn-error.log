@@ -1,0 +1,73 @@
+Arguments: 
+  /Users/mlc/.nvm/versions/node/v10.13.0/bin/node /usr/local/Cellar/yarn/1.12.1/libexec/bin/yarn.js install
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/mlc/.nvm/versions/node/v10.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public
+
+Yarn version: 
+  1.12.1
+
+Node version: 
+  10.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@vuepress%2ftheme-vue: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.12.1/libexec/lib/cli.js:63139:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.12.1/libexec/lib/cli.js:124547:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.12.1/libexec/lib/cli.js:125519:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.12.1/libexec/lib/cli.js:125441:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "private": true,
+    "version": "1.0.0-alpha.42",
+    "name": "docs",
+    "description": "docs of VuePress",
+    "scripts": {
+      "dev": "vuepress dev docs --temp .temp",
+      "build": "vuepress build docs --temp .temp",
+      "view-info": "vuepress view-info docs --temp .temp",
+      "show-help": "vuepress --help"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vuejs/vuepress.git"
+    },
+    "keywords": [
+      "documentation",
+      "vue",
+      "generator"
+    ],
+    "author": "Evan You",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/vuejs/vuepress/issues"
+    },
+    "homepage": "https://github.com/vuejs/vuepress#readme",
+    "devDependencies": {
+      "@vuepress/plugin-back-to-top": "^1.0.0-alpha.42",
+      "@vuepress/plugin-google-analytics": "^1.0.0-alpha.42",
+      "@vuepress/plugin-i18n-ui": "^1.0.0-alpha.42",
+      "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.42",
+      "@vuepress/plugin-pwa": "^1.0.0-alpha.42",
+      "@vuepress/theme-vue": "^1.0.0-alpha.42",
+      "vuepress": "^1.0.0-alpha.42",
+      "vuepress-plugin-flowchart": "^1.4.2",
+      "vue-toasted": "^1.1.25"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

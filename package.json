@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "version": "1.0.0-alpha.42",
+  "name": "docs",
+  "description": "docs of VuePress",
+  "scripts": {
+    "docs:build": "vuepress build docs"
+  },
+  "author": "chanlumin"
+}
