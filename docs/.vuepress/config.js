@@ -1,4 +1,5 @@
 module.exports = ctx => ({
+  base:'/course/',
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
